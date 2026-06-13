@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "functions": {
+    "pages/api/stream.ts": {
+      "maxDuration": 300
+    },
+    "pages/api/stats.ts": {
+      "maxDuration": 30
+    }
+  }
+}
